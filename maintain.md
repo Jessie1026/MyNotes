@@ -8,11 +8,11 @@
 1. tomcat7 → tomcat9(目前7會自啟要注意!!不然會占用port號)
 將tomcat9移入遠端環境，並修改server.xml中port號
 2. jdk7 → jdk8
-`yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel`
+- `yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel`
 
-`alternatives --config java` → 選擇jdk8
+- `alternatives --config java` → 選擇jdk8
 
-3. /report中有多處path指到tomcat7 Reportfile 要記得更新替換
+3. /report(舊版report)中有多處path指到tomcat7 Reportfile 要記得更新替換
 #### 正常更版流程
 1. 連線客戶端: `ssh root@<ip>`
 2. 備份原程式(壓縮或是拖曳至其他資料夾皆可)
