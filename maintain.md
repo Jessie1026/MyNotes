@@ -9,6 +9,7 @@
 將tomcat9移入遠端環境，並修改server.xml中port號
 2. jdk7 → jdk8
 `yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel`
+
 `alternatives --config java` → 選擇jdk8
 3. /report中有多處path指到tomcat7 Reportfile 要記得更新替換
 #### 正常更版流程
