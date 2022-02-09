@@ -22,6 +22,10 @@ RestartSec=20s
 WantedBy=multi-user.target
 ```
 # 更改tomcat資料夾權限
-`cd /root/Desktop/apache-tomcat-9.0.46`
+`cd /root/Desktop`
 
 `chmod -R 755 apache-tomcat-9.0.46`
+
+# 重新啟動script
+- `systemctl stop config.service`
+- `systemctl start config.service`
