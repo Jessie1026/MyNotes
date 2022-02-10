@@ -70,5 +70,5 @@ Right click and select the "add and remove...",Add heis_standalone,and Finish
 7. **Change Server IP Address or Domain**  
     HEIS 左側選單SYSTEM CONFIG → Server IP Address or Domain → 127.0.0.1
 9. **Modify data on Mysql**  
-        - bas_project:PROJECT_END_TIME (小於當下時間、大於最後行為觸發時間)
-        - bas_project:PROJECT_FLOW (確保狀態為03或01，04是失敗)
+       - bas_project:PROJECT_END_TIME (小於當下時間、大於最後行為觸發時間)  
+       - bas_project:PROJECT_FLOW (確保狀態為03或01，04是失敗)  
