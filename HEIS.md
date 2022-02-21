@@ -9,7 +9,6 @@ Path: heis\WebContent\META-INF\context.xml
     - `password`(需轉base64)  
     -  `url="jdbc:mysql://localhost:3306/HEIS"` →"HEIS"為db name(若無異動可略過)  
  
-    ![](https://i.imgur.com/BQ2wyOF.png)  
   
 
 2. **Tomcat 9 server setting**  
@@ -56,11 +55,11 @@ Right click and select the "add and remove...",Add heis_standalone,and Finish
     #REPORT_PATH = 'output/'
     ```
 5. **Modify Chart .py**  
-    `font`:修改字型—linux用`self.label['FONT']`，local環境用`{'family': 'Microsoft JhengHei', 'size': '14'}`
+    `font`:修改字型—linux用 `self.label['FONT']`，local環境用`{'family': 'Microsoft JhengHei', 'size': '14'}`
     ```
     def chart_setting(self):
     #font = self.label['FONT']
-    font  = {'family': 'Microsoft JhengHei', 'size': '14'}
+    font  = {'family': 'Microsoft JhengHei',  'size': '14'}
     mpl.rc('figure', max_open_warning = 0)
     plt.rcParams['axes.unicode_minus']=False
     plt.rc('font', **font)
