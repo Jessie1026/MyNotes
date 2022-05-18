@@ -6,3 +6,6 @@ http://tools.jb51.net/regex/create_reg
 
 ### Base64
 https://www.convertstring.com/zh_TW/EncodeDecode/Base64Decode
+
+### Online GUID / UUID Generator  
+https://www.guidgenerator.com/online-guid-generator.aspx
