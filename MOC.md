@@ -1,6 +1,6 @@
 # MyNotes
 
-## Radio btn
+## Radio btn switch language
 
 ### default.css
 
