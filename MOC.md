@@ -138,6 +138,7 @@
 
 
 ### Show Modal
+> `ng-click` 寫在內容的button
 `#productContent`: xxxContent，xxx請改對應的系統代號名稱‼️ 非常重要。
 
 ```html=
@@ -150,6 +151,7 @@ $scope.viewContent = function (id) {
 ```
 
 ### Close Modal
+> `ng-click` 寫在返回的button
 `#productContent`: xxxContent，xxx請改對應的系統代號名稱‼️ 非常重要。
 ```html=
 // Close View Content Start
