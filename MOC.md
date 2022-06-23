@@ -158,6 +158,12 @@ $scope.closeContent = function () {
 };
 // Close View Content End
 ```
+### 安插Modal
+```
+<!-- View Content Modal -->
+<span th:replace="/include/web_info_view_content"></span>
+```
+
 ### 注意事項 
 ```
 <label for="DataTime" class="font-weight-normal" th:text="#{we01DataDate}"
