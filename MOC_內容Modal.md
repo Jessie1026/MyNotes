@@ -1,6 +1,4 @@
-# MyNotes
-
-## View Content 
+# View Content 
 > 就2步驟：製作內容頁面(HTML)、呼叫關閉(JS)
 
 ### include/xxx_view_content
