@@ -5,7 +5,7 @@
 
 ### include/xxx_view_content
 `id="productContent"` : xxxContent，xxx請改對應的系統代號名稱‼️ 非常重要。  
-公版：  
+公版HTML：  
 
 ```html=
 <!-- productModal -->
@@ -158,3 +158,13 @@ $scope.closeContent = function () {
 };
 // Close View Content End
 ```
+### 注意事項 
+```
+<label for="DataTime" class="font-weight-normal" th:text="#{we01DataDate}"
+	ng-required="true"></label>
+<input type="datetime-local" class="form-control" readonly id="DataTime"
+	name="DataTime" ng-model="DataTime" ng-required="true">
+```
+1. `label`:  `for="xxx"`,xxx請改成等同你的`name="xxx"`的值，必須改！！！！！！  
+2. `th:text="#{pleaseEnter}"` : 自行替換
+
