@@ -174,3 +174,7 @@ $scope.closeContent = function () {
 1. `label`:  `for="xxx"`,xxx請改成等同你的`name="xxx"`的值，必須改！！！！！！  
 2. `th:text="#{pleaseEnter}"` : 自行替換
 
+
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Jessie1026.visitor-badge)
+
