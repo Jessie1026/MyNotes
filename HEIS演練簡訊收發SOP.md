@@ -88,7 +88,11 @@ http://61.219.126.3:8080/entrance.jsp?id=d4753990d12749cfb1241041079dff4e&word=0
 ```
 
 ### 將重製連結轉成短連結
-Tools: [短連結產生器](https://tinyurl.com/app/) 需註冊！！     
+Tools1:[短連結產生器](https://ssur.cc/)   
+
+
+
+Tools2: [短連結產生器](https://tinyurl.com/app/) 需註冊！！最多只能產五組。     
 
 ＊Enter a long URL to make a TinyURL：貼上前面重置好的連結。  
 ＊Customize your link：填上自定義的別名       
