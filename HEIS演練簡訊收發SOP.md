@@ -5,6 +5,11 @@
 至HEIS網站(Group Setting)，下載Group_Update_Example.xlsx，並填寫受測人員資料。填好必填欄位(有＊字號的欄位)後儲存並上傳匯入至HEIS網站。
 ![image](https://user-images.githubusercontent.com/99180553/177476380-52150da1-0be2-4223-92e5-a5c1d022f42e.png)
 
+### 新增信件範本
+「Phish Link Target」填入想要導到的地方網站即可～
+![image](https://user-images.githubusercontent.com/99180553/177705501-3a703c13-b5f6-4478-b2b3-265433db1737.png)
+
+
 ### 新增一個演練任務
 至TASK MANAGEMENT啟動一個新的演練任務，並選取剛剛匯入的人員群組。
 
