@@ -14,7 +14,7 @@
 
 
 ## MySQL
->直接複製貼上以下SQL，並按下「⚡️」執行，在下方Result Grid可以看到Query結果。
+直接複製貼上以下SQL，並按下「⚡️」執行，在下方Result Grid可以看到Query結果。
 
 ### Query BAS_USER 全部演練人員名單資料表:
 ```
