@@ -94,16 +94,17 @@ http://61.219.126.3:8080/entrance.jsp?id=d4753990d12749cfb1241041079dff4e&word=0
 
 ### 將重製連結轉成短連結
 Tools1:[短連結產生器](https://ssur.cc/)   
+輸入重製好的連結，點「縮短」即可看到生成的短連結。
+![image](https://user-images.githubusercontent.com/99180553/177705975-622806be-585c-4acb-bef0-249fdc1c1a89.png)
 
+### 寫簡訊內容
+範例：
+```
+[Gmail]您正在修改密碼，驗證碼32658，切勿將驗證碼洩漏於他人，本條驗證碼有效期30分鐘。https://ssur.cc/e8oVZPp
 
-
-Tools2: [短連結產生器](https://tinyurl.com/app/) 需註冊！！最多只能產五組。     
-
-＊Enter a long URL to make a TinyURL：貼上前面重置好的連結。  
-＊Customize your link：填上自定義的別名       
-＊結果範例：`tinyurl.com/xecure`      
-![image](https://user-images.githubusercontent.com/99180553/177684960-ce030f1b-d05d-42f1-9a95-83d9c61ea74c.png)
-
+[東森購物]您的帳號異常登陸，存在被盜風險，請即登陸帳號驗證，
+修改個人資料:https://ssur.cc/kbeexge
+```
 
 
 ## Excel
