@@ -54,7 +54,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr class="text-center" ng-repeat="alllog in alllogs">
+                                            <tr class="text-center" ng-repeat="alllog in alllogs" ng-if="alllogsLength != Null">
                                                 <td class="align-middle">
                                                     <div>
                                                         <span ng-if="alllog.ApplyType=='0'"
@@ -97,7 +97,7 @@
                                                 </td>
                                             </tr>
                                             <!-- If data is Null -->
-                                            <tr class="text-center" ng-show="alllogsLength == Null">
+                                            <tr class="text-center" ng-if="alllogsLength == Null">
                                                 <td colspan="7" th:text="#{tableRowNoRecord}">
                                                 </td>
                                             </tr>
@@ -132,6 +132,21 @@
 
 ```
 ![image](https://user-images.githubusercontent.com/99180553/175255323-a29c3510-bef4-4e35-ac7c-256cdc780768.png)
+
+2022/9/13 Update ‼️
+1. 「審核歷程」區塊`<tbody>`之下第一個`<tr>`增加`ng-if="alllogsLength != Null"`
+```
+<tr class="text-center" ng-repeat="alllog in alllogs" ng-if="alllogsLength != Null">
+```
+2. 「審核歷程」區塊`<!-- If data is Null -->`時，該tr原本是用`ng-show`請改成`ng-if` 
+```
+<!-- If data is Null -->
+<tr class="text-center" ng-if="alllogsLength == Null">
+	<td colspan="7" th:text="#{tableRowNoRecord}">
+	</td>
+</tr>
+```
+
 
 
 
