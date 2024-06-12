@@ -153,7 +153,8 @@ $scope.login = function() {
 
 ```
 怕不清楚，這邊附上異動區塊提示圖例！
-![alt text](image.png)
+![image](https://github.com/Jessie1026/MyNotes/assets/99180553/1a7c0317-8dd1-48f3-b781-576f147c04be)
+
 
 
 ## index.html
@@ -186,7 +187,8 @@ $scope.login = function() {
 
 並調整`login()`function，判斷是登入成功後，跳轉頁面前夾帶語系代碼！這樣就可以帶著之前選的語系一起登入了！突破session invalid的窘境。
 
-![alt text](image-1.png)
+![image](https://github.com/Jessie1026/MyNotes/assets/99180553/a0d80bf0-dd3f-4f03-8b20-30dfecfbd517)
+
 
 
 
